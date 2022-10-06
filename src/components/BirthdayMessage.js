@@ -23,18 +23,18 @@ const Container = styled.div`
   transform: translate(-50%, -50%);
 `
 
-const Wisher = styled.div`
-  display: block;
-  white-space: nowrap;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  margin-top: 1rem;
-  @media screen and (max-width: 900px) {
-    font-size: 1.5rem;
-    white-space: default;
-  }
-`
+// const Wisher = styled.div`
+//   display: block;
+//   white-space: nowrap;
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 500;
+//   font-size: 2rem;
+//   margin-top: 1rem;
+//   @media screen and (max-width: 900px) {
+//     font-size: 1.5rem;
+//     white-space: default;
+//   }
+// `
 
 class BirthdayMessage extends React.Component {
   render() {
